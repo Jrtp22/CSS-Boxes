@@ -1,3 +1,103 @@
-body {
-  background: papayawhip;
-}
+*{
+    /* outline: 1px solid limegreen; */
+  }
+  body {
+    background: papayawhip;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+  }
+  .a {
+    width: 100%;
+    height:100%;
+    text-align: center;
+    line-height: 25;
+    background: purple;
+    margin: 5px;
+  }
+  .b{
+    line-height: 50;
+    width: 100%;
+    height:100%;
+    text-align: center;
+    background: green;
+    margin: 5px;
+  }
+  .c, .d, .e {
+    line-height: 25;
+    width: 32%;
+    height: 100%;
+    margin: 5px;
+    background: red;
+    text-align: center;
+  }
+  .f{
+    width: 100%;
+    height:100%;
+    text-align: center;
+    line-height: 25;
+    background: purple;
+    margin: 5px;
+  }
+  .container2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+  }
+  @media screen and (min-width:600px) {
+    .container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 100%;
+    }
+    .a {
+      width: 100%;
+      height:100%;
+      text-align: center;
+      line-height: 25;
+      background: purple;
+      margin: 5px;
+      order: 1;
+    }
+    .b {
+      width: 100%;
+      height: 100%;
+      line-height: 50;
+    }
+    .c, .d, .e {
+      width: 31%;
+    }
+    .f {
+      width: 25%;
+      height:100%;
+      text-align: center;
+      line-height: 76;
+      background: red;
+      margin: 5px;
+      order: 3;
+    }
+    .container2{
+        order:2;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        width: 72%;
+        height: 100%;
+    }
+  }
