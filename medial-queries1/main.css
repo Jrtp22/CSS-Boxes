@@ -5,15 +5,17 @@ body {
   background: blanchedalmond;
   width: 100%;
   height: 100%;
+  margin: 0px;
 }
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: nowrap;
-  width: 100%;
   height: 100%;
+  margin: 20px;
+ 
 }
 .a {
   width: 100%;
@@ -21,7 +23,8 @@ body {
   text-align: center;
   line-height: 30;
   background: purple;
-  margin: 5px;
+  margin: 20px;
+ 
 }
 .b{
   line-height: 60;
@@ -29,7 +32,7 @@ body {
   height:100%;
   text-align: center;
   background: green;
-  margin: 5px;
+
 }
 .c{
   width: 100%;
@@ -37,7 +40,7 @@ body {
   text-align: center;
   line-height: 30;
   background: red;
-  margin: 5px;
+  margin: 20px;
 }
 @media (min-width: 600px) {
   .container{
@@ -46,7 +49,6 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
     height: 100%;
   }
   .a {
@@ -55,7 +57,7 @@ body {
     text-align: center;
     line-height: 20;
     background: purple;
-    margin: 10px;
+    margin: 5px ;
   }
   .b{
     line-height: 30;
@@ -72,7 +74,7 @@ body {
     text-align: center;
     line-height: 30;
     background: red;
-    margin: 5px;
+    margin: 5px ;
 
 }
 }

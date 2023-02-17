@@ -25,7 +25,7 @@ body {
 
 .b, .c, .d, .e, .f, .g {
   line-height: 25;
-  width: 32%;
+  width: 29%;
   height: 100%;
   margin: 5px;
   background: red;
@@ -43,12 +43,13 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-around;
   flex-wrap: wrap;
   width: 100%;
   height: 100%;
 }
-@media screen and (min-width:600px) {
+
+@media (min-width:600px) {
   .container {
     display: flex;
     flex-direction: row;
@@ -68,9 +69,9 @@ body {
     order: 1;
   }
   .b, .c, .d, .e, .f, .g {
-    width: 31%;
+    width: 30%;
     height: 100%;
-    line-height: 38;
+    line-height: 37.7;
   }
   .h {
     width: 25%;
@@ -78,7 +79,7 @@ body {
     text-align: center;
     line-height: 76;
     background: red;
-    margin: 5px;
+   
     order: 3;
   }
   .container2{
@@ -86,10 +87,10 @@ body {
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: flex-start;
+      justify-content: space-evenly;
       flex-wrap: wrap;
       width: 72%;
       height: 100%;
-      line-height: 76;
+    
   }
 }
